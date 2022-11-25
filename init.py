@@ -43,7 +43,7 @@ class Lady:
         self.hali = status
 
 
-girl_friend = Lady("Brown", "Rachel", "Kenya", "Single but married")
+girl_friend = Lady("Brown", "Rachel", "Kenya", "single but we are married")
 
 
-print(girl_friend.jina)
+print("\nMy girlfriend is", girl_friend.hali)
