@@ -13,6 +13,24 @@ alien_rat = Rat()
 
 # class and object
 
-print('Imagine a '+alien_rat.color+' rat\n'"with a weight of",alien_rat.size,"kg")
+print('Imagine a ' + alien_rat.color + ' rat\n'"with a weight of", alien_rat.size, "kg")
+
 
 # print the value: object and class attributes
+
+
+class Bird:
+    def __int__(self, height, age, weight):
+        self.urefu = height
+        self.miaka = age
+        self.uzito = weight
+
+
+chicken = Bird()
+
+chicken.urefu = 20
+chicken.uzito = 2
+chicken.miaka = 2
+
+
+print("\nOur veteran hen is about", chicken.miaka, "years old")
