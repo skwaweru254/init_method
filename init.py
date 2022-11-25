@@ -32,5 +32,18 @@ chicken.urefu = 20
 chicken.uzito = 2
 chicken.miaka = 2
 
-
 print("\nOur veteran hen is about", chicken.miaka, "years old")
+
+
+class Lady:
+    def __init__(self, color, name, country, status):
+        self.rangi = color
+        self.jina = name
+        self.nchi = country
+        self.hali = status
+
+
+girl_friend = Lady("Brown", "Samantha", "Kenya", "Single but married")
+
+
+print(girl_friend.jina)
