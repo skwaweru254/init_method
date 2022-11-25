@@ -45,5 +45,16 @@ class Lady:
 
 girl_friend = Lady("Brown", "Rachel", "Kenya", "single but we are married")
 
-
 print("\nMy girlfriend is", girl_friend.hali)
+
+
+class Book:
+    pass
+
+
+river_between = Book()
+pass
+
+river_between.author = "Ngugi wa Thiog\'o"
+
+print("\nRiver Between author is", river_between.author)
